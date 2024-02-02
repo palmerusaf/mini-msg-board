@@ -1,3 +1,9 @@
 <h1>{{title}}</h1>
 <p>Welcome to {{title}}</p>
-
+<ul>
+  {{#each messages}}
+  <li>{{this.text}}</li>
+  <li>{{this.user}}</li>
+  <li>{{this.added}}</li>
+  {{/each}}
+</ul>

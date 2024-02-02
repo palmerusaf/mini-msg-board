@@ -1,10 +1,11 @@
 <h1>{{title}}</h1>
 <p>Welcome to {{title}}</p>
+<h2>Messages</h2>
 <ul>
   {{#each messages}}
-  <li>User Name: {{this.user}}</li>
+  <li>User: {{this.user}}</li>
   <li>Message: {{this.text}}</li>
-  <li>Date Added: {{this.added}}</li>
+  <li>Date: {{this.added}}</li>
   {{/each}}
 </ul>
-<a href="/new">new</a>
+<a href="/new">Add New Messages</a>

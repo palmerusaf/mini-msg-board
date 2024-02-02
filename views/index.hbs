@@ -2,8 +2,9 @@
 <p>Welcome to {{title}}</p>
 <ul>
   {{#each messages}}
-  <li>{{this.text}}</li>
-  <li>{{this.user}}</li>
-  <li>{{this.added}}</li>
+  <li>User Name: {{this.user}}</li>
+  <li>Message: {{this.text}}</li>
+  <li>Date Added: {{this.added}}</li>
   {{/each}}
 </ul>
+<a href="/new">new</a>
